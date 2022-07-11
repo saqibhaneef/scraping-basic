@@ -1,0 +1,61 @@
+ 
+
+
+    <div class="item mx-3 bg-white coverCard">
+                        <img src="/assets/img/blog-images/1.png" />
+                        <div class="post-details p-3 d">
+                            <h3 class="mt-0 ellipsis-two">
+                                The Impact of Cloud Computing on the E-Commerce Industry
+                            </h3>
+                            <p class="ellipsis-three">
+                                E-commerce has taken online businesses by storm. It’s allowed small businesses to
+                                grow through the power of the internet
+                            </p>
+
+                            <div class="bio">
+                                <div>
+                                    <button type="button" class="btn btn-default post-read-more" data-toggle="modal" data-target="#blog-readmore-1">
+                                        Read more <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item mx-3 bg-white coverCard ">
+                        <img src="/assets/img/blog-images/11.png" />
+                        <div class="post-details p-3">
+                            <h3 class="mt-0 ellipsis-two">Can Cloud Computing Work Without Internet?</h3>
+                            <p class="ellipsis-three">
+                                When you think of the Internet, it’s likely that an image of a cloud comes up in
+                                your head. This is because the internet is all virtual.
+                            </p>
+
+                            <div class="bio">
+                                <div>
+                                    <button type="button" class="btn btn-default post-read-more" data-toggle="modal" data-target="#blog-readmore-2">
+                                        Read more <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item mx-3 bg-white coverCard">
+                        <img src="/assets/img/blog-images/111.png" />
+                        <div class="post-details p-3">
+                            <h3 class="mt-0 ellipsis-two">Why Cloud Computing Is Safe? Glad You Asked! </h3>
+                            <p class="ellipsis-three">
+                                Cloud Computing is gaining traction in many different businesses. It has allowed businesses
+                                to access applications over the Internet.
+                            </p>
+
+                            <div class="bio">
+                                <div>
+                                    <button type="button" class="btn btn-default post-read-more" data-toggle="modal" data-target="#blog-readmore-3">
+                                        Read more <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>

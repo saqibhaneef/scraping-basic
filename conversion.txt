@@ -1,0 +1,25 @@
+public ActionResult Index()
+        {
+            
+            string filepath = Server.MapPath("~/BlogsContent/htmlSample.txt");
+            HtmlDocument document2 = new HtmlDocument();
+            document2.Load(filepath);
+            List<BlogArticle> blogArticles = new List<BlogArticle>();
+            var allDiv = document2.DocumentNode.SelectNodes("//div[contains(@class,'coverCard')]");
+            foreach (HtmlNode node in allDiv)
+            {
+                BlogArticle blogArticle = new BlogArticle();
+
+                HtmlNode[] titleNodes = node.SelectNodes(".//h3").ToArray();
+                HtmlNode[] detailNodes = node.SelectNodes(".//p").ToArray();
+                var imgSrc = node.SelectSingleNode(".//img").Attributes["src"].Value;
+                blogArticle.ImgSrc = imgSrc;
+                blogArticle.Title = titleNodes.First().InnerText.Trim();
+                blogArticle.Description = detailNodes.First().InnerText.Trim();
+
+                blogArticles.Add(blogArticle);
+            }
+            ViewBag.blogArticle = blogArticles;
+
+            return View();
+        }
